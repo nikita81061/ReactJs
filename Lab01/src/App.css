@@ -1,0 +1,24 @@
+.App {
+    margin: 20px;
+}
+
+table, th, td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 250px 1fr;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
